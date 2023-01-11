@@ -21,3 +21,12 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 ```
 
 * Install [conda](https://conda.io/projects/conda/en/stable/user-guide/install/linux.html#install-linux-silent)
+
+```bash
+conda create --name deeplearning
+conda activate deeplearning
+sudo ln -s /home/vscode/miniconda3/bin/python3.10 /usr/bin/apython
+apython is_it.py  # should work
+conda deactivate # after you finish
+
+```
