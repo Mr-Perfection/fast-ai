@@ -6,7 +6,8 @@ https://docs.fast.ai/
 
 
 ### Dev setup
-* Install [conda](https://conda.io/projects/conda/en/stable/user-guide/install/linux.html#install-linux-silent)
+
+* Setup and run docker container for fastai env: https://github.com/Mr-Perfection/fastai-docker-containers
 
 ```bash
 conda create --name fastai
