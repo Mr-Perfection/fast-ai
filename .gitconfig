@@ -1,0 +1,9 @@
+[user]
+	name = Stephen Lee
+	email = sungsoolee0127@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-67382987f0662a1db93da68842954e431ba6f6dc.js $*; }; f"
+[safe]
+	directory = /root
